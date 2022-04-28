@@ -22,6 +22,81 @@ Have you ever forgot something on the fridge and by time you opened it the food 
 
 ## Pin-out Connections
 
+- ### Gas Sensor (MQ-135):
+
+| Mbed     | SD      |
+| ------------- | ------------- |
+| p15        | out         |
+| GND         | GND         |
+| Vout         | Vcc         |
+| VU         | 5V         |
+
+- ### Temperature sensor (TMP-36):
+
+| Mbed     | MQ-135      |
+| ------------- | ------------- |
+| GND        | GND         |
+| Vout         | 3.3V         |
+| P18         | Out         |
+
+- ### uLCD Connections:
+
+| Mbed     | uLCD      |
+| ------------- | ------------- |
+| VU        | 5V         |
+| GND         | GND         |
+| Tx=P9         | RX         |
+| Rx=P10         | TX         |
+| P11         | Reset         |
+
+- ### Up Pushbutton Connections:
+
+| Mbed     | Up Pushbutton      |
+| ------------- | ------------- |
+| P8        | P1         |
+| GND         | P2         |
+
+- ### Down Pushbutton Connections:
+
+| Mbed     | Down Pushbutton      |
+| ------------- | ------------- |
+| P28        | P1         |
+| GND         | P2         |
+
+- ### Left Pushbutton Connections:
+
+| Mbed     | Left Pushbutton      |
+| ------------- | ------------- |
+| P29        | P1         |
+| GND         | P2         |
+
+- ### Right Pushbutton Connections:
+
+| Mbed     | Right Pushbutton      |
+| ------------- | ------------- |
+| P24        | P1         |
+| GND         | P2         |
+
+- ### Select Pushbutton Connections:
+
+| Mbed     | Select Pushbutton      |
+| ------------- | ------------- |
+| P20        | P1         |
+| GND         | P2         |
+
+- ### Homepage Pushbutton Connections:
+
+| Mbed     | Homepage Pushbutton      |
+| ------------- | ------------- |
+| P19        | P1         |
+| GND         | P2         |
+
+- ### USB Serial Connection:
+
+| Mbed     | Raspberry Pi      |
+| ------------- | ------------- |
+| USB mini Out  | USB 2.0 In         |
+
 ## Demos
 
 - ### Smart Tupperware:

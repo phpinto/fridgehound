@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FridgeHound</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+ 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/fridgehound.css">
+ 
+</head>
+<body>
+<div id="title">
+    <H1 class="text-left" class="">FridgeHound</H1>
+</div>
+<div>
+    <H1 class="subtitle">My Foods</H1>
+    <div id="hounds">
+ 
+    </div>
+</div>
+ 
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAS84TYTgtx0ZPWyJ_wDyIoM1RKHzXdlng",
+        authDomain: "fridgehound.firebaseapp.com",
+        databaseURL: "https://fridgehound.firebaseio.com",
+        projectId: "fridgehound",
+        storageBucket: "fridgehound.appspot.com",
+        messagingSenderId: "969769836536"
+    };
+ 
+    firebase.initializeApp(config);
+ 
+</script>
+<script src="js/fridgehound.js"></script>
+</body>
+</html>

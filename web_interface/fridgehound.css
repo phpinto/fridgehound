@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+ 
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #F0F0F0;
+}
+ 
+#title {
+    font-size: 32px;
+    background: #F1654C;
+    color: #F0F0F0;
+    padding: 10px;
+}
+ 
+.subtitle {
+    color: #3E4651;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 48px;
+}
